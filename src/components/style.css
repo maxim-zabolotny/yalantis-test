@@ -11,3 +11,22 @@
     transition: 0.1s;
     margin-bottom: 1em;
 }
+
+.app {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.list_item {
+    list-style: none;
+    padding: 0.5em 0;
+    color: #212529;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+

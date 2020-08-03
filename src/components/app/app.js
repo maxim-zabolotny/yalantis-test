@@ -1,13 +1,12 @@
 import React from 'react';
-import * as axios from "axios";
+import MonthList from "../month-list/month-list";
+import UsersList from "../users-list/users-list";
 
 function App() {
-    let data = axios(`https://yalantis-react-school-api.yalantis.com/api/task0/users`).then(res => {
-        console.log(res.data);
-    })
     return (
-    <div className="App">
-        app
+    <div className="app">
+        <MonthList />
+        <UsersList />
     </div>
   );
 }
